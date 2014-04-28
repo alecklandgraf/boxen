@@ -59,4 +59,4 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "redis", "3.0.3"
+github "redis", "3.0.2"
