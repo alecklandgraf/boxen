@@ -60,3 +60,5 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "redis", "3.0.2"
+github "java", "1.4.0"
+github "elasticsearch", "2.1.0"
