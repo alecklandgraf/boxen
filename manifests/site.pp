@@ -67,6 +67,8 @@ node default {
   include postgresql
   include tunnelblick
   include hipchat
+  include flux
+  include divvy
 
 
   # fail if FDE is not enabled
