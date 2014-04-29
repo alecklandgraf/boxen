@@ -60,6 +60,9 @@ node default {
 
   # BE dev stuff
   include redis
+  include stdlib
+  include xquartz
+  include homebrew
   include java
   include elasticsearch
   include sysctl
@@ -69,6 +72,8 @@ node default {
   include hipchat
   include flux
   include divvy
+  include libreoffice
+  include openssl
 
 
   # fail if FDE is not enabled
