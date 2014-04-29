@@ -60,6 +60,8 @@ node default {
   include redis
   include java
   include elasticsearch
+  include sysctl
+  include postgresql
 
 
   # fail if FDE is not enabled
