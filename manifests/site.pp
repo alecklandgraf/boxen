@@ -57,11 +57,16 @@ node default {
   include git
   include hub
   include nginx
+
+  # BE dev stuff
   include redis
   include java
   include elasticsearch
   include sysctl
+  include python
   include postgresql
+  include tunnelblick
+  include hipchat
 
 
   # fail if FDE is not enabled
