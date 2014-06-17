@@ -58,6 +58,22 @@ node default {
   include hub
   include nginx
 
+  # BE dev stuff
+  include redis
+  include stdlib
+  include xquartz
+  include homebrew
+  include java
+  include elasticsearch
+  include sysctl
+  include python
+  include postgresql
+  include tunnelblick
+  include hipchat
+  include libreoffice
+  include openssl
+
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')

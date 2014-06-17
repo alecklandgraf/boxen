@@ -59,3 +59,13 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "redis", "3.0.2"
+github "java", "1.4.0"
+github "elasticsearch", "2.1.0"
+github "sysctl", "1.0.1"
+github "postgresql", "3.0.0"
+github "python", "1.3.0"
+github "tunnelblick", "1.0.6"
+github "hipchat", "1.1.1"
+github "libreoffice", "4.1.5"
+github "openssl", "1.0.0"
