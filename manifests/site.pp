@@ -67,11 +67,16 @@ node default {
   include elasticsearch
   include sysctl
   include python
-  include postgresql
   include tunnelblick
   include hipchat
   include libreoffice
   include openssl
+
+  # postgres setup, may require `xcode-select --install`
+  include postgresql
+  postgresql::db { 'alandgraf': }
+  postgresql::db { 'seed': }
+  postgresql::db { 'be_prod': }
 
 
   # fail if FDE is not enabled
