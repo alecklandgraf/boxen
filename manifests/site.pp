@@ -69,7 +69,6 @@ node default {
   include python
   include tunnelblick
   include hipchat
-  include libreoffice
   include openssl
 
   # postgres setup, may require `xcode-select --install`
