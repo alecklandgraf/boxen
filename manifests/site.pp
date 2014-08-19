@@ -66,10 +66,14 @@ node default {
   include java
   include elasticsearch
   include sysctl
+
   include python
+  include python::virtualenvwrapper
+  
   include tunnelblick
   include hipchat
   include openssl
+  include knock
 
   # postgres setup, may require `xcode-select --install`
   include postgresql

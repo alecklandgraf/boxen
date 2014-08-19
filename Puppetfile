@@ -55,7 +55,7 @@ github "repository",  "2.3.0"
 github "ruby",        "8.0.4"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
-github "xquartz",     "1.1.1"
+github "xquartz",     "1.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -68,3 +68,4 @@ github "python", "1.3.0"
 github "tunnelblick", "1.0.6"
 github "hipchat", "1.1.1"
 github "openssl", "1.0.0"
+github "knock", "0.1.0"
