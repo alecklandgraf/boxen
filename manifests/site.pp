@@ -67,13 +67,15 @@ node default {
   include elasticsearch
   include sysctl
   include python
-  include postgresql
   include tunnelblick
   include hipchat
-  include flux
-  include divvy
-  include libreoffice
   include openssl
+
+  # postgres setup, may require `xcode-select --install`
+  include postgresql
+  postgresql::db { 'alandgraf': }
+  postgresql::db { 'seed': }
+  postgresql::db { 'be_prod': }
 
 
   # fail if FDE is not enabled
@@ -91,6 +93,7 @@ node default {
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
+  ruby::version { '2.1.2': }
 
   # common, useful packages
   package {
